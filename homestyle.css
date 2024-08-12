@@ -1,0 +1,72 @@
+*{
+  font-family: 'Times New Roman', Times, serif;
+  
+  
+}
+header{
+  background-color: red;
+  
+}
+aside{
+  background-color: black;
+  
+}
+
+
+.dark-mode .list-group-item {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-mode .list-group-item.active {
+  background-color: #555;
+}
+
+.dark-mode .text-body-secondary {
+  color: #999;
+}
+
+
+footer{
+  background-color: black;
+}
+.logo{
+  border-radius:-50;
+  width: 15vh;
+  
+}
+.active{
+  font-size: x-large;
+  color: darkred;
+}
+.sub-tabs{
+  display:none ;
+}
+.nav-item:hover .sub-tabs{
+  display: block;
+}
+
+.university-image{
+  max-width: 115vh;
+  height: 65vh;
+ 
+  margin: auto;
+  display: block;
+  
+}
+
+.university-image:hover{
+  transform:scale(1.1) ;
+  transition-duration:145ms ;
+  
+}
+a.list-group-item{
+ background-color: #333;
+ color: white;
+}
+.text-body-secondary{
+  color: white;
+}
+
+
+

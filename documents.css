@@ -1,0 +1,15 @@
+.sub-tabs{
+    display:inline ;
+  }
+  .nav-item:hover .sub-tabs{
+    display: inline;
+  }
+.main{
+    font-size: x-large;
+    height: 83vh;
+}
+a.link{
+  color: darkblue;
+}
+
+

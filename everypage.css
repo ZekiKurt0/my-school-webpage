@@ -1,0 +1,36 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+   
+  
+  }
+main{
+    background-color: grey;
+    color: black
+}
+  header{
+    background-color: red;
+    
+  }
+  aside{
+    background-color: black;
+    
+  }
+  footer{
+    background-color: black;
+    color: red;
+  }
+  .logo{
+    border-radius:-50;
+    width: 15vh;
+    
+  }
+  .active{
+    font-size: x-large;
+    color: darkred;
+  }
+  .sub-tabs{
+    display:none ;
+  }
+  .nav-item:hover .sub-tabs{
+    display: block;
+  }

@@ -1,0 +1,37 @@
+.university-image{
+ max-width: 55vh;
+  height: auto;
+  height: auto;
+  margin: auto;
+  display: block;
+    transition: opacity 0.5s ease;
+}
+.university-image:hover{
+    opacity: 0.5;
+}
+
+.hiddentext,  
+.view-morebutton,
+.view-morebutton:not(:checked) ~ .hide-btn,
+.view-morebutton:checked ~ .view-btn {
+  display: none;
+}
+
+.view-morebutton:checked ~ .hiddentext {  
+  display: inline;
+}
+
+.label-btn {
+  display: inline;
+  color: red;
+}
+.content{
+  font-size: x-large;
+}
+
+.label-btn{
+  color: darkblue;
+}
+
+
+
